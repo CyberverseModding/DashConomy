@@ -1,0 +1,8 @@
+name: DashConomy
+version: '${project.version}'
+main: xyz.dashcore.dashconomy.Main
+authors: ["Dashcore Team", "chocoearly44"]
+description: A simple Vault economy handler plugin.
+website: https://dashcore.xyz
+depend: [Vault]
+load: STARTUP
