@@ -152,6 +152,11 @@
 			<id>spongepowered-repo</id>
 			<url>https://repo.spongepowered.org/maven/</url>
 		</repository>
+
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
 	</repositories>
 
 	<dependencies>
@@ -163,8 +168,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>xyz.dashcore</groupId>
-			<artifactId>monument</artifactId>
+			<groupId>com.github.DashcoreModding</groupId>
+			<artifactId>Monument</artifactId>
 			<version>1.0</version>
 		</dependency>
 	</dependencies>
